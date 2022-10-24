@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #131034;
+}
+
+.signup-form{
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background:url(batu.jpg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+.signup-form h1{
+    color: rgb(255, 255, 255);
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.signup-form input{
+    display: block;
+    width: 100%;
+    padding: 0 16px;
+    height: 44px;
+    text-align: center;
+    box-sizing: border-box;
+    border:none;
+}
+.txt{
+    margin: 20px 0;
+    border-radius: 6px;
+}
+.signup-btn{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background: #538fef;
+    color: #fff;
+    border-radius: 44px;
+    cursor: pointer;
+    transition: 0.8s;
+    display: block;
+}
+.signup-btn:hover{
+    transform: scale(0.96);
+    background: #fff;
+    color: #538fef;
+}
+
+.signup-form a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px;
+    transition: 0.8s;
+    display: block;
+}
+.signup-form a:hover{
+    color: yellow;
+}

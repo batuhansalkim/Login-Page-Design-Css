@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left, .right, form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    width: 500px;
+    align-items: flex-start;
+}
+.left h1{
+    font-family: "facebook letter faces";
+    font-size: 56px;
+    color: #1877f2;
+}
+.left p{
+    font-size: 25px;
+    color: #1c1e21;
+    height: 200px;
+    font-weight: 360;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.right{
+    width: 400px;
+}
+form{
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow:0 4px 8px 0  rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+form input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid #ddd;
+
+}
+.loginBtn{
+    background-color: #1877f2;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Arial";
+    font-weight: 700;
+    transition: 0.5s;
+}
+.loginBtn:hover{
+    background-color: #4257b2;
+}
+.forget{
+    text-decoration: none;
+    margin: 15px 0;
+    font-size: 15px;
+    color: #2473d9;
+    font-family: "Arial";
+}
+.forget:hover{
+    text-decoration: underline;
+}
+
+/*
+
+.sign-up{
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.signupBtn{
+    background-color: #42b72a;
+    text-align: center;
+   
+    font-size: 17px;
+    font-weight: 600;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: "Arial";
+    transition: 0.5s;
+}
+.signupBtn:hover{
+    background-color: green;
+}
+
+.right p{
+    font-family: "Arial";
+    font-size: 15px;
+
+}
+
+@media (max-width:950px) {
+    .container{
+        flex-direction: column;
+    }
+    .left{
+        width: 400px;
+        align-content: center;
+        align-items: center;
+    }
+    .left p{
+        height: 75px;
+        text-align: center;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
